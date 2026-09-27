@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Эвакуатор 24/7 — подача от 20 минут | ЭвакуаторПро</title>
+  <meta name="description" content="Служба эвакуации автомобилей в Москве и МО. Подача от 20 минут, работа 24/7, фиксированная стоимость до выезда. Эвакуация после ДТП и поломки, межгород, сложная погрузка.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚛</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#top" class="logo" aria-label="ЭвакуаторПро — на главную">
+        <svg class="logo-mark" width="40" height="40" viewBox="0 0 40 40" aria-hidden="true">
+          <defs>
+            <linearGradient id="lgLogo" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#ff9a3d"/><stop offset="100%" stop-color="#ff6a00"/>
+            </linearGradient>
+          </defs>
+          <rect width="40" height="40" rx="10" fill="url(#lgLogo)"/>
+          <rect x="6" y="17" width="15" height="3" rx="1.5" fill="#fff"/>
+          <path d="M6 20 L2 25 L6 25 Z" fill="#fff"/>
+          <path d="M22 9 h6 c1.6 0 3 .9 3.8 2.2 L35 15 v6 H22 Z" fill="#fff"/>
+          <rect x="24" y="11" width="4" height="4" rx="1" fill="#ff6a00"/>
+          <rect x="26.5" y="6" width="4.5" height="3" rx="1.2" fill="#fff"/>
+          <circle cx="10.5" cy="25" r="3.2" fill="#fff"/><circle cx="10.5" cy="25" r="1.3" fill="#ff6a00"/>
+          <circle cx="27" cy="25" r="3.2" fill="#fff"/><circle cx="27" cy="25" r="1.3" fill="#ff6a00"/>
+        </svg>
+        <span class="logo-text">Эвакуатор<span>Про</span></span>
+      </a>
+
+      <nav class="site-nav" id="siteNav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#prices">Цены</a>
+        <a href="#about">О компании</a>
+        <a href="#how">Как работаем</a>
+        <a href="#faq">Вопросы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="header-phone" href="tel:+74951204567">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          +7 (495) 120-45-67
+        </a>
+        <a class="btn btn-primary btn-sm" href="#order">Вызвать</a>
+        <button class="burger" id="burgerBtn" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#services">Услуги</a>
+      <a href="#prices">Цены</a>
+      <a href="#about">О компании</a>
+      <a href="#how">Как работаем</a>
+      <a href="#faq">Вопросы</a>
+      <a href="#contacts">Контакты</a>
+      <a class="mobile-menu-phone" href="tel:+74951204567">+7 (495) 120-45-67</a>
+      <a class="btn btn-primary" href="#order">Вызвать эвакуатора</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <div class="hero-tag reveal">Служба эвакуации · Москва и МО</div>
+          <h1 class="reveal" style="--d:.08s">Эвакуатор <span class="grad-text">24/7</span><br>от 20 минут</h1>
+          <p class="hero-lead reveal" style="--d:.16s">Подадим эвакуатор от 20 минут по Москве и области.
+            Фиксируем стоимость до выезда — без скрытых доплат.</p>
+
+          <div class="hero-cta reveal" style="--d:.24s">
+            <a class="btn btn-primary" href="#order">
+              Вызвать эвакуатора
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="tel:+74951204567">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              +7 (495) 120-45-67
+            </a>
+          </div>
+
+          <ul class="hero-stats reveal" style="--d:.32s">
+            <li><strong>20 мин</strong><span>подача по городу</span></li>
+            <li><strong>24/7</strong><span>без выходных</span></li>
+            <li><strong>8 лет</strong><span>опыта работы</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal" style="--d:.2s">
+          <svg class="truck-svg" viewBox="0 0 620 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Эвакуатор с автомобилем на платформе">
+            <defs>
+              <radialGradient id="glow" cx="50%" cy="45%" r="55%">
+                <stop offset="0%" stop-color="#ff7a1a" stop-opacity=".16"/>
+                <stop offset="100%" stop-color="#ff7a1a" stop-opacity="0"/>
+              </radialGradient>
+              <linearGradient id="cabGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#ff9a3d"/><stop offset="100%" stop-color="#ff6a00"/>
+              </linearGradient>
+              <linearGradient id="carGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#f2f5fa"/><stop offset="100%" stop-color="#c6d0de"/>
+              </linearGradient>
+            </defs>
+
+            <circle cx="310" cy="210" r="195" fill="url(#glow)"/>
+
+            <g stroke="#2c3444" stroke-width="6" stroke-linecap="round">
+              <path d="M46 236h44"/><path d="M30 262h36"/><path d="M52 288h30"/>
+            </g>
+
+            <path d="M36 352h548" stroke="#232a38" stroke-width="5" stroke-linecap="round" stroke-dasharray="30 22"/>
+            <ellipse cx="330" cy="356" rx="248" ry="12" fill="#070a0f" opacity=".55"/>
+
+            <!-- chassis + bed -->
+            <rect x="150" y="294" width="392" height="24" rx="8" fill="#272e3c"/>
+            <rect x="146" y="278" width="286" height="18" rx="5" fill="#39424f"/>
+            <rect x="146" y="278" width="286" height="4" rx="2" fill="#4a5567"/>
+            <path d="M146 278 L96 344 L146 344 Z" fill="#39424f"/>
+            <g stroke="#ff7a1a" stroke-width="4" stroke-linecap="round" opacity=".85">
+              <path d="M116 344 l13 -11"/><path d="M131 344 l13 -11"/>
+            </g>
+            <rect x="136" y="268" width="26" height="12" rx="4" fill="#4a5567"/>
+
+            <!-- car on the bed -->
+            <g>
+              <path d="M182 278 v-12 c0-5 4-9 9-9 h50 l19-17 c3-3 7-4 11-4 h46 c5 0 9 2 12 6 l10 14 h13 c6 0 11 5 11 11 v11 z" fill="url(#carGrad)"/>
+              <path d="M247 255 l17-15 h21 v15 z" fill="#b9c8e0"/>
+              <path d="M291 255 v-15 h23 c3.5 0 6.5 1.5 8.5 4 l8.5 11 z" fill="#b9c8e0"/>
+              <circle cx="214" cy="264" r="14" fill="#141924"/>
+              <circle cx="214" cy="264" r="5.5" fill="#48536a"/>
+              <circle cx="330" cy="264" r="14" fill="#141924"/>
+              <circle cx="330" cy="264" r="5.5" fill="#48536a"/>
+            </g>
+
+            <!-- cab -->
+            <path d="M436 294 L436 212 C436 202 444 194 454 194 L500 194 C507 194 513 197 518 202 L552 242 C557 248 560 255 560 263 L560 294 Z" fill="url(#cabGrad)"/>
+            <path d="M454 210 h40 c3.5 0 6.5 1.5 8.5 4 l22 26 h-70.5 z" fill="#b9c8e0"/>
+            <path d="M452 212 v80" stroke="#e05f00" stroke-width="3" opacity=".55"/>
+            <rect x="474" y="182" width="38" height="12" rx="6" fill="#ffb03a"/>
+            <circle cx="493" cy="188" r="14" fill="#ffb03a" opacity=".22"/>
+            <rect x="548" y="252" width="12" height="12" rx="4" fill="#ffe08a"/>
+            <path d="M560 250 l48 16 v20 l-48 -10 z" fill="#ffe08a" opacity=".13"/>
+            <rect x="544" y="282" width="22" height="14" rx="5" fill="#272e3c"/>
+
+            <!-- wheels -->
+            <circle cx="212" cy="322" r="28" fill="#141924" stroke="#313a4c" stroke-width="6"/>
+            <circle cx="212" cy="322" r="10" fill="#48536a"/>
+            <circle cx="470" cy="322" r="28" fill="#141924" stroke="#313a4c" stroke-width="6"/>
+            <circle cx="470" cy="322" r="10" fill="#48536a"/>
+
+            <circle cx="172" cy="344" r="6" fill="#232a38" opacity=".5"/>
+            <circle cx="156" cy="347" r="4" fill="#232a38" opacity=".4"/>
+          </svg>
+
+          <div class="hero-chip chip-1">
+            <span class="chip-dot"></span> Подача от 20 минут
+          </div>
+          <div class="hero-chip chip-2">Работаем 24/7</div>
+          <div class="hero-chip chip-3">Цена фиксируется до выезда</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="sec-head reveal">
+          <div class="sec-tag">Услуги</div>
+          <h2>Чем мы занимаемся</h2>
+          <p>Эвакуируем любые легковые автомобили и внедорожники — в городе, на трассе и за его пределами.</p>
+        </div>
+
+        <div class="grid services-grid">
+          <article class="card reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3>Эвакуация после поломки</h3>
+            <p>Автомобиль не заводится или встал на трассе — подадим технику и отвезём в сервис, домой или на парковку.</p>
+          </article>
+
+          <article class="card reveal" style="--d:.06s">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 20h16a2 2 0 0 0 1.73-2Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+            </div>
+            <h3>Эвакуация после ДТП</h3>
+            <p>Аккуратно погрузим повреждённый автомобиль и доставим на СТО, в страховую компанию или на спецстоянку.</p>
+          </article>
+
+          <article class="card reveal" style="--d:.12s">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35a1 1 0 0 0-.78-.38H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg>
+            </div>
+            <h3>Перевозка автомобилей</h3>
+            <p>Перевозим машины между адресами: покупка, продажа, переезд, доставка из салона или в гараж.</p>
+          </article>
+
+          <article class="card reveal" style="--d:.18s">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
+            </div>
+            <h3>Внедорожники и кроссоверы</h3>
+            <p>Техника повышенной грузоподъёмности и удлинённая платформа — для тяжёлых и габаритных автомобилей.</p>
+          </article>
+
+          <article class="card reveal" style="--d:.24s">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/></svg>
+            </div>
+            <h3>Межгород</h3>
+            <p>Доставим автомобиль в любой город области и региона. Прозрачный тариф — от 35 ₽ за километр.</p>
+          </article>
+
+          <article class="card reveal" style="--d:.3s">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4" r="2"/><path d="M12 6v6"/><path d="M12 12c0 3.2-2.6 4.1-2.6 6.2a2.6 2.6 0 0 0 5.2 0C14.6 16.1 12 15.2 12 12"/></svg>
+            </div>
+            <h3>Сложная погрузка</h3>
+            <p>Манипулятор и лебёдка: перевёрнутые авто, заблокированные колёса, подземные паркинги и узкие дворы.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRICES ============ -->
+    <section class="section section-alt" id="prices">
+      <div class="container">
+        <div class="sec-head reveal">
+          <div class="sec-tag">Цены</div>
+          <h2>Стоимость эвакуации</h2>
+          <p>Точную цену назовём до выезда и зафиксируем в заявке — на месте она не изменится.</p>
+        </div>
+
+        <div class="grid prices-grid">
+          <article class="card price-card reveal">
+            <div class="price-name">Легковой автомобиль</div>
+            <div class="price-value">от 1 500 ₽</div>
+            <p class="price-desc">Седаны, хэтчбеки, универсалы — по Москве в пределах МКАД.</p>
+          </article>
+
+          <article class="card price-card reveal" style="--d:.06s">
+            <div class="price-name">Кроссовер / внедорожник</div>
+            <div class="price-value">от 2 000 ₽</div>
+            <p class="price-desc">Усиленная платформа и лебёдка для тяжёлых автомобилей.</p>
+          </article>
+
+          <article class="card price-card price-featured reveal" style="--d:.12s">
+            <div class="price-badge">Частый запрос</div>
+            <div class="price-name">Межгород</div>
+            <div class="price-value">от 35 ₽/км</div>
+            <p class="price-desc">Перевозка за пределы МКАД при расстоянии от 30 км.</p>
+          </article>
+
+          <article class="card price-card reveal" style="--d:.18s">
+            <div class="price-name">Сложная погрузка</div>
+            <div class="price-value">от 2 500 ₽</div>
+            <p class="price-desc">Заблокированные колёса, ДТП, подземный паркинг, манипулятор.</p>
+          </article>
+        </div>
+
+        <p class="price-note reveal">Стоимость зависит от типа автомобиля, расстояния и характера погрузки.
+          Расчёт бесплатный — позвоните, и диспетчер назовёт точную цену за 2 минуты.</p>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container about-inner">
+        <div class="about-text reveal">
+          <div class="sec-tag">О компании</div>
+          <h2>Перевозим автомобили аккуратно — уже 8 лет</h2>
+          <p>«ЭвакуаторПро» — круглосуточная служба эвакуации по Москве и Московской области.
+            Работаем без праздников и выходных: днём, ночью и в любую погоду.</p>
+          <p>Каждый эвакуатор укомплектован лебёдкой, стропами и мягкими креплениями — грузим
+            аккуратно, без царапин и повреждений. Стоимость объявляем до выезда и фиксируем
+            в заявке: цена на месте не изменится никогда.</p>
+          <a class="btn btn-ghost" href="#order">Оставить заявку
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <div class="about-stats">
+          <div class="stat reveal"><strong data-count="8" data-suffix="">0</strong><span>лет опыта</span></div>
+          <div class="stat reveal" style="--d:.06s"><strong data-count="12000" data-suffix="+">0</strong><span>эвакуированных авто</span></div>
+          <div class="stat reveal" style="--d:.12s"><strong data-count="15" data-suffix="">0</strong><span>единиц своей техники</span></div>
+          <div class="stat reveal" style="--d:.18s"><strong data-count="20" data-suffix=" мин">0</strong><span>средняя подача</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HOW IT WORKS ============ -->
+    <section class="section section-alt" id="how">
+      <div class="container">
+        <div class="sec-head reveal">
+          <div class="sec-tag">Как проходит работа</div>
+          <h2>От заявки до доставки — 4 шага</h2>
+          <p>Весь процесс занимает от 40 минут: от первого звонка до доставки автомобиля по адресу.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <div class="step-num">01</div>
+            <h3>Заявка</h3>
+            <p>Позвоните или оставьте заявку на сайте — уточним марку авто и адреса.</p>
+          </li>
+          <li class="step reveal" style="--d:.08s">
+            <div class="step-num">02</div>
+            <h3>Расчёт стоимости</h3>
+            <p>Назовём точную цену и время подачи. Цена фиксируется до выезда.</p>
+          </li>
+          <li class="step reveal" style="--d:.16s">
+            <div class="step-num">03</div>
+            <h3>Выезд эвакуатора</h3>
+            <p>Приезжаем от 20 минут, аккуратно грузим и фиксируем колёса.</p>
+          </li>
+          <li class="step reveal" style="--d:.24s">
+            <div class="step-num">04</div>
+            <h3>Доставка автомобиля</h3>
+            <p>Отвозим по адресу и помогаем выгрузить. Оплата после доставки.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ ADVANTAGES ============ -->
+    <section class="section" id="advantages">
+      <div class="container">
+        <div class="sec-head reveal">
+          <div class="sec-tag">Преимущества</div>
+          <h2>Почему выбирают нас</h2>
+        </div>
+
+        <div class="grid adv-grid">
+          <article class="card reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <h3>Быстрая подача</h3>
+            <p>Приезжаем от 20 минут по городу. Ближайшая свободная машина всегда на связи с диспетчером.</p>
+          </article>
+
+          <article class="card reveal" style="--d:.06s">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <h3>Работа 24/7</h3>
+            <p>Ночью, в праздники и в любую погоду. Диспетчер на линии круглосуточно.</p>
+          </article>
+
+          <article class="card reveal" style="--d:.12s">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="m16 11 2 2 4-4"/></svg>
+            </div>
+            <h3>Опытные водители</h3>
+            <p>Стаж каждого водителя — от 5 лет. Знают, как погрузить авто любого типа без повреждений.</p>
+          </article>
+
+          <article class="card reveal" style="--d:.18s">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35a1 1 0 0 0-.78-.38H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg>
+            </div>
+            <h3>Собственная техника</h3>
+            <p>15 эвакуаторов и манипуляторов в парке — не ждём сторонних подрядчиков.</p>
+          </article>
+
+          <article class="card reveal" style="--d:.24s">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <h3>Без скрытых доплат</h3>
+            <p>Цена фиксируется до выезда и не меняется после приезда. Никаких «внезапных» надбавок.</p>
+          </article>
+
+          <article class="card reveal" style="--d:.3s">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4 12 14.01l-3-3"/></svg>
+            </div>
+            <h3>Аккуратная погрузка</h3>
+            <p>Мягкие стропы, фиксация колёс и страховка автомобиля на время перевозки.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section section-alt" id="faq">
+      <div class="container faq-inner">
+        <div class="sec-head reveal">
+          <div class="sec-tag">FAQ</div>
+          <h2>Частые вопросы</h2>
+          <p>Не нашли ответ? Позвоните — диспетчер ответит на любой вопрос за пару минут.</p>
+        </div>
+
+        <div class="faq-list reveal" style="--d:.1s">
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              Сколько ждать эвакуатор?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p>По Москве — от 20 до 40 минут в зависимости от загрузки и удалённости адреса.
+              По области время подскажет диспетчер при оформлении заявки. В час пик или в сильный снег
+              предупреждаем о возможной задержке заранее.</p></div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              Изменится ли цена после приезда эвакуатора?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p>Нет. Стоимость рассчитывается и фиксируется в заявке до выезда.
+              Водитель не имеет права менять цену. Доплата возможна только если вы измените
+              условия — например, поменяете адрес доставки.</p></div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              Что делать, если колёса заблокированы?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p>Ничего страшного. У нас есть эвакуаторы с манипулятором и сдвижной
+              платформой — погрузим автомобиль, не вращая колёса. Это стандартная ситуация для нас,
+              стоимость такой погрузки — от 2 500 ₽.</p></div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              Авто после ДТП, не на ходу и без ключей — заберёте?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p>Да. Эвакуируем автомобили с любыми повреждениями, с заблокированной
+              рулевой колонкой и без ключей — погрузка лебёдкой или манипулятором. Наличие документов
+              не требуется, достаточно сообщить марку и модель авто.</p></div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              Как можно оплатить?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p>Наличными, картой водителю или переводом. Для юридических лиц —
+              оплата по счёту с закрывающими документами. Оплата производится после доставки автомобиля.</p></div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              Заберёте автомобиль с подземного паркинга?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p>Да, у нас есть компактная техника, которая проезжает в паркинги
+              с ограничением по высоте от 2,5 метров. Уточните высоту въезда заранее — подберём
+              подходящий эвакуатор.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTS ============ -->
+    <section class="section" id="contacts">
+      <div class="container">
+        <div class="sec-head reveal">
+          <div class="sec-tag">Контакты</div>
+          <h2>Свяжитесь с нами</h2>
+          <p>Работаем по Москве и Московской области. Ответим на звонок за 30 секунд.</p>
+        </div>
+
+        <div class="grid contacts-grid">
+          <a class="card contact-card reveal" href="tel:+74951204567">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <h3>Телефон</h3>
+            <p class="contact-value">+7 (495) 120-45-67</p>
+            <p class="contact-note">Звонок бесплатный · ответим за 30 секунд</p>
+          </a>
+
+          <div class="card contact-card reveal" style="--d:.06s">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+            </div>
+            <h3>Мессенджеры</h3>
+            <div class="contact-links">
+              <a href="https://wa.me/74951204567" target="_blank" rel="noopener">WhatsApp</a>
+              <a href="https://t.me/evakuatorpro" target="_blank" rel="noopener">Telegram</a>
+            </div>
+            <p class="contact-note">Напишите — пришлём расчёт стоимости</p>
+          </div>
+
+          <div class="card contact-card reveal" style="--d:.12s">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <h3>Режим работы</h3>
+            <p class="contact-value">Круглосуточно, 24/7</p>
+            <p class="contact-note">Без выходных и праздников</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ORDER FORM ============ -->
+    <section class="section section-alt" id="order">
+      <div class="container order-inner">
+        <div class="order-text reveal">
+          <div class="sec-tag">Форма заявки</div>
+          <h2>Оставьте заявку — перезвоним за 5 минут</h2>
+          <p>Расскажите, что случилось, и диспетчер рассчитает точную стоимость,
+            назовёт время подачи и зафиксирует цену до выезда.</p>
+          <ul class="order-points">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4 12 14.01l-3-3"/></svg>
+              Расчёт бесплатный и ни к чему не обязывает
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4 12 14.01l-3-3"/></svg>
+              Цена фиксируется до выезда эвакуатора
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4 12 14.01l-3-3"/></svg>
+              Или позвоните сразу: <a href="tel:+74951204567">+7 (495) 120-45-67</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="order-form card reveal" style="--d:.1s" id="orderForm" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="fName">Ваше имя *</label>
+              <input type="text" id="fName" name="name" placeholder="Иван" autocomplete="name" required>
+              <span class="field-error">Укажите имя</span>
+            </div>
+            <div class="field">
+              <label for="fPhone">Телефон *</label>
+              <input type="tel" id="fPhone" name="phone" placeholder="+7 (___) ___-__-__" autocomplete="tel" required>
+              <span class="field-error">Укажите телефон полностью</span>
+            </div>
+            <div class="field">
+              <label for="fFrom">Откуда забрать автомобиль *</label>
+              <input type="text" id="fFrom" name="from" placeholder="Город, улица, номер дома" required>
+              <span class="field-error">Укажите адрес подачи</span>
+            </div>
+            <div class="field">
+              <label for="fTo">Куда доставить *</label>
+              <input type="text" id="fTo" name="to" placeholder="Адрес или название сервиса" required>
+              <span class="field-error">Укажите адрес доставки</span>
+            </div>
+            <div class="field field-full">
+              <label for="fComment">Кратко о ситуации</label>
+              <textarea id="fComment" name="comment" rows="3" placeholder="Например: не заводится, стоит во дворе; колёса на месте"></textarea>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">Отправить заявку</button>
+          <p class="form-note">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных.
+            Не передаём их третьим лицам.</p>
+        </form>
+
+        <div class="order-success card" id="orderSuccess" hidden>
+          <div class="success-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4 12 14.01l-3-3"/></svg>
+          </div>
+          <h3>Заявка отправлена!</h3>
+          <p>Диспетчер перезвонит в течение 5 минут, уточнит детали и зафиксирует стоимость.</p>
+          <div class="success-actions">
+            <a class="btn btn-primary" href="tel:+74951204567">Позвонить сейчас</a>
+            <button class="btn btn-ghost" type="button" id="orderReset">Отправить ещё одну</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#top" class="logo" aria-label="ЭвакуаторПро">
+          <svg class="logo-mark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+            <rect width="40" height="40" rx="10" fill="url(#lgLogo)"/>
+            <rect x="6" y="17" width="15" height="3" rx="1.5" fill="#fff"/>
+            <path d="M6 20 L2 25 L6 25 Z" fill="#fff"/>
+            <path d="M22 9 h6 c1.6 0 3 .9 3.8 2.2 L35 15 v6 H22 Z" fill="#fff"/>
+            <rect x="24" y="11" width="4" height="4" rx="1" fill="#ff6a00"/>
+            <circle cx="10.5" cy="25" r="3.2" fill="#fff"/><circle cx="10.5" cy="25" r="1.3" fill="#ff6a00"/>
+            <circle cx="27" cy="25" r="3.2" fill="#fff"/><circle cx="27" cy="25" r="1.3" fill="#ff6a00"/>
+          </svg>
+          <span class="logo-text">Эвакуатор<span>Про</span></span>
+        </a>
+        <p>Круглосуточная эвакуация автомобилей<br>по Москве и Московской области.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Навигация в подвале">
+        <a href="#services">Услуги</a>
+        <a href="#prices">Цены</a>
+        <a href="#about">О компании</a>
+        <a href="#how">Как работаем</a>
+        <a href="#faq">Вопросы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <div class="footer-contact">
+        <a class="footer-phone" href="tel:+74951204567">+7 (495) 120-45-67</a>
+        <p>Круглосуточно, 24/7</p>
+        <div class="footer-messengers">
+          <a href="https://wa.me/74951204567" target="_blank" rel="noopener">WhatsApp</a>
+          <span>·</span>
+          <a href="https://t.me/evakuatorpro" target="_blank" rel="noopener">Telegram</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year">2026</span> ЭвакуаторПро. Все права защищены.</span>
+      <span>Подача эвакуатора от 20 минут</span>
+    </div>
+  </footer>
+
+  <!-- Мобильная кнопка вызова -->
+  <a class="float-call" href="tel:+74951204567" aria-label="Позвонить в службу эвакуации">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
